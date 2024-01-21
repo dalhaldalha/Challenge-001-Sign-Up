@@ -1,0 +1,25 @@
+.main-div {
+  padding: 2rem 3rem;
+}
+
+.div1 {
+  
+}
+
+.div2 {
+ 
+}
+
+.signup-text {
+  text-align: center;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google {
+  height: 1rem;
+}
