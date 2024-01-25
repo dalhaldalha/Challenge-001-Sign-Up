@@ -77,3 +77,10 @@
   justify-content: center;
   gap: 0.5rem;
 }
+
+@media (max-width: 700px) {
+  .main-div {
+    display: flex;
+  }
+  
+}
