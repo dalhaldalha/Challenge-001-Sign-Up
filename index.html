@@ -19,23 +19,33 @@
     <div class="">
       <div class="row main-div">
         <div class="col div1">
-          <h2 class="signup-text">Sign up</h2>
-          <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-primary google-btn" type="button">
-              <img class="google" src="assets/logo-google.svg" alt="">
-              Sign in with Google
-            </button>
-          </div>
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          <form class="form-class">
+            <h2 class="signup-text">Get started with Dextrus</h2>
+            <h2 class="signup-text">Sign up</h2>         
+            <div class="btn-div">
+              <button class="btn btn-outline-primary btn1" type="button">
+                <img class="google" src="assets/google logo.svg" alt="">
+                Sign up with Google
+              </button>
+              <button class="btn btn-outline-primary btn1">
+                <img class="google" src="assets/logo-apple.svg" alt="">
+                Sign up with Apple
+              </button>
             </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            
+            <div class="or-div">
+              <hr class="line">
+              <p class="or-text">or</p>
+              <hr class="line"> 
             </div>
-          </div>
-          
-          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+            </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -46,10 +56,11 @@
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <button type="submit" class="btn btn-primary">Create Account</button>
+            <p>Already have and account? <a href="">Sign in</a></p>
           </form>
         </div>
         <div class="col div2">
-          <img class="img-fluid" src="assets/sign up.svg" alt="">
+          <img class="right-img" src="assets/sign up.svg" alt="">
         </div>
       </div>
     </div>
