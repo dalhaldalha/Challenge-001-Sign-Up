@@ -1,4 +1,6 @@
-
+.navigation {
+  background-color: #3F72AF;
+}
 
 .main-div {
   display: flex;
@@ -78,9 +80,29 @@
   gap: 0.5rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 950px) {
   .main-div {
     display: flex;
+    flex-direction: column;
+  }
+
+  .main-div {
+    padding: 0rem;
+  }
+
+  .div1 {
+    border-radius: 0rem;
+  }
+
+  .div2 {
+    border-radius: 2rem 2rem 0rem 0rem;
   }
   
+  .form-class {
+    padding: 1.5rem;
+  }
+
+  .right-img {
+    height: 50vh;
+  }
 }
